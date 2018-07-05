@@ -1,5 +1,7 @@
 <template>
-    <employee-search/>
+    <div ref="container">
+         <employee-search/>
+    </div>
 </template>
 <script>
 import EmployeeSearch from './EmployeeSearch'
@@ -7,7 +9,7 @@ import EmployeeSearch from './EmployeeSearch'
 export default {
     name: 'Home',
     components: {
-        EmployeeSearch
+        EmployeeSearch,
     }
 }
 </script>
