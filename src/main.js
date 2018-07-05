@@ -25,8 +25,8 @@ const routes = [
   {
     path: '/SuperAdmin',
     component: SuperAdmin
-  },
-]
+  }
+];
 
 const router = new VueRouter({
   routes
