@@ -24,7 +24,7 @@ const routes = [
   },
   {
     path: '/SuperAdmin',
-    component: SuperAdmin
+    component: SuperAdmin,
   }
 ];
 
